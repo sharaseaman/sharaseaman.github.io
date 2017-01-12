@@ -1,6 +1,6 @@
 h1 {
   color: red;
-  background-color: FF0080;
+  background-color: #FF0080;
   
 }
 
@@ -8,4 +8,8 @@ h2 {
   color: gold;
   background-color: turquoise;
 
+}
+
+img {
+  width: 400px;
 }
