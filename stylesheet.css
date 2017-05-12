@@ -1,0 +1,105 @@
+div {
+	border-radius: 5px;
+}
+
+
+#name {
+	text-align: center;
+	margin-left: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+}
+
+.resume{
+  margin: auto;
+  width: 70%;
+  padding-bottom: 40px;
+
+}
+
+.leftaddress{
+  float: left;
+}
+
+.rightaddress{
+  float: right;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.rightimage{
+  float:right;
+}
+
+.leftimage{
+	float: left;
+	padding-right: 10px;
+}
+#hershey{
+  margin-top: 5px;
+  margin-right:5px;
+
+}
+
+#maui{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#portland{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#seattle{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#SLO{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#boston{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#stpaul{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#minni{
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+img {
+	padding-bottom: 5px;
+  padding-top: 5px;
+
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 1px;
+  font-size: 22px;
+	font-family: Verdana, sans-serif;;
+}
+
+
+
+
+h4 {
+	margin-left: 1px;
+	margin-bottom: -8px;
+	font-family: Verdana;
+  font-size: 18px;
+  padding-bottom: 1px;
+}
+span{
+	font-size: 18px;
+	text-decoration: underline;
+
+}
