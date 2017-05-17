@@ -1,7 +1,11 @@
 div {
-	border-radius: 5px;
+	border-radius: ;
 }
 
+.top{
+	display: flex;
+ 	float: center;
+}
 
 #name {
 	text-align: center;
@@ -19,11 +23,14 @@ div {
 }
 
 .leftaddress{
-  float: left;
+	margin-left: 10em;
 }
 
-.rightaddress{
-  float: right;
+.rightaddress {
+	margin-top: 20px;
+	margin-right: 18em;
+	margin-left: 10px;
+
 }
 
 .clearfix{
@@ -31,7 +38,7 @@ div {
 }
 
 .rightimage{
-  float:right;
+  float: right;
 }
 
 .leftimage{
@@ -39,45 +46,45 @@ div {
 	padding-right: 10px;
 }
 #hershey{
-  margin-top: 5px;
-  margin-right:5px;
+  margin-top:
+  margin-right:
 
 }
 
 #maui{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 
 #portland{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 #seattle{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 #SLO{
 	margin-top: 5px;
-	margin-right: 5px;
+	margin-right:
 }
 #boston{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 #stpaul{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 
 #minni{
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top:
+	margin-right:
 }
 
 img {
-	padding-bottom: 5px;
-  padding-top: 5px;
+	padding-bottom:
+  padding-top:
 
 }
 
@@ -88,7 +95,35 @@ h3 {
 	font-family: Verdana, sans-serif;;
 }
 
+#employee{
+	display: flex;
+}
 
+#education{
+	display: flex;
+}
+
+#learning {
+	display: flex;
+}
+
+.learningcontent{
+	padding-top: 25px;
+	margin-top: 20px;
+	margin-left: 175px;
+}
+
+.educationcontent{
+  padding-top: 25px;
+	margin-top: 20px;
+	margin-left: 175px;
+
+}
+.employeecontent{
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
 
 
 h4 {
