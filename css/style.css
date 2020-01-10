@@ -32,34 +32,69 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
-  /* font-size: 16px; */
+  /*font-size: 16px;*/
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-  /*stops animation shake*/
   backface-visibility: hidden;
-  margin-bottom: 5rem; }
+  margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 5.5rem;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 1rem;
-    animation-name: moveInLeft;
-    animation-duration: 3s;
-    /* animation-timing-function: ease-out; */ }
+    letter-spacing: 3.5rem; }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: .8rem;
-    animation-name: moveInRight;
-    animation-duration: 3s; }
+    font-weight: 700;
+    letter-spacing: 1.75rem; }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #dcb7e4, #7468cf);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .heading-secondary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -82,23 +117,8 @@ body {
   background-color: #fff;
   color: #777; }
 
-.header {
-  height: 95vh;
-  background-image: linear-gradient(to bottom, rgba(220, 183, 228, 0.8), rgba(116, 104, 207, 0.8)), url(../img/shara_heart.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  clip-path: polygon(25vh 0vh, 100vh 0vh, vh 100vh, 0vh 100vh); }
-  .header__text-box {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; }
-
 .row {
   max-width: 114rem;
-  background-color: #8edcf3;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -107,7 +127,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: pink;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
@@ -125,3 +144,50 @@ body {
     width: calc(2* ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc(3* ((100% - 3 * 6rem) / 4) + 2*6rem); }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to bottom, rgba(220, 183, 228, 0.8), rgba(116, 104, 207, 0.8)), url(../img/shara_heart.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(25vh 0vh, 100vh 0vh, vh 100vh, 0vh 100vh); }
+  .header__text-box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.section-portfolio {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(220, 183, 228, 0.8), rgba(116, 104, 207, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem; }
+  .section-features > * {
+    transform: skewY(7deg); }
+
+.section-tours {
+  background-color: #777;
+  padding: 25rem 0 15rem 0;
+  margin-top: -10rem; }
+
+.section-stories {
+  position: relative;
+  padding: 15rem 0; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #dcb7e4, #7468cf); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }

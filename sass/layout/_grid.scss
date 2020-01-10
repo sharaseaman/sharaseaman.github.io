@@ -2,7 +2,7 @@
 
     //1140px divided by 10 = 114rem
     max-width: $grid-width;
-    background-color: rgb(142, 220, 243);
+    // background-color: rgb(142, 220, 243);
     margin: 0 auto;
 
     &:not(:last-child){
@@ -12,7 +12,7 @@
     @include clearfix;
 
     [class^="col-"]{
-        background-color: pink;
+        // background-color: pink;
         float: left;
 
         &:not(:last-child){
