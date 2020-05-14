@@ -137,7 +137,8 @@ a {
     color: #f096c7; }
 
 .icons a {
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
 
 header {
   position: fixed;
