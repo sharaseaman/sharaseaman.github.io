@@ -14,42 +14,25 @@
 
 <body id="bg-img">
   <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <nav class="navbar navbar-expand-md  fixed-top maine-menu">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Testimonial</a></li>
+          <li class="nav-item"> <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a></li>
+        </ul>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item current">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <!-- <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            Contact
-          </a>
-        </li> -->
-      </ul>
-    </nav>
+    </div>
+  </nav>
   </header>
 
-  <main id="home">
+  <main id="">
     <h1 class="lg-heading">
       Shara Seaman
     </h1>
@@ -67,10 +50,49 @@
         <i class="fab fa-github fa-2x"></i>
       </a>
     </div>
-
   </main>
+<section id="about">
+    <h1 class="lg-heading">
+      About Me
+    </h1>
 
+    <div class="about-info">
+      <img src="img/sharaPortrait.jpg" alt="Shara Seaman" class="bio-image">
+
+      <div class="bio">
+        <h3 class="text-secondary"></h3>
+        <p></p>
+      </div>
+
+      <div class="job job-1">
+        <h3>Irish Titan</h3>
+        <h4>Softare Engineer</h4>
+        <p>Employee only full-service agency specializing in ecommerce and strategic digital experiences.</p>
+      </div>
+
+      <div class="job job-2">
+        <h3 class="text-secondary"><a href="https://primeacademy.io/" target="_blank">Prime Digital Academy</a></h3>
+        <h4>Full Stack Software Development Bootcamp</h4>
+        <p>Prime Digital Academy is a learning community dedicated to helping non-traditional candidates start careers in technology. Our programs teach full stack software engineering and user experience design through immersive, project-based learning.
+        </p>
+      </div>
+
+
+      <div class="job job-3">
+        <h3>Previous Life</h3>
+        <h4>Interventional Cardiac Cath Lab Technologist</h4>
+        <p> Collaborated with diverse range of teamsand doctors across the USA to provide specialized, emergentcare forpatients in fast-paced and high-stress hospital environments</p>
+      </div>
+    </div>
+  </section>
   <script src="js/main.js"></script>
 </body>
+
+
+
+
+
+
+
 
 </html>
